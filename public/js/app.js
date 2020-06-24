@@ -8,6 +8,7 @@ weatherForm.addEventListener("submit", (e) => {
 
   const location = search.value;
   messageOne.textContent = "Loading...";
+  messageTwo.textContent = "";
 
   /*
   For the client side browsing data we will hit the api to the backend 
